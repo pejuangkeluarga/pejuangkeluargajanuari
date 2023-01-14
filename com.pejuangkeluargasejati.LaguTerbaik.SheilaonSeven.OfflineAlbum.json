@@ -1,94 +1,260 @@
 {
-"redirect" : {
-
-// untuk merubah menjadi mode mp3 - panggil link ini via offline / json - "file:///android_asset/music/playlist.html"
-// pastikan mode offline mp3 true jika merubah ke mode mp3
-// https://kabinetdeveloperexample.blogspot.com/2020/12/optimasi-blogger.html
-
-"HOMEURL" : "file:///android_asset/music/playlist.html",
-
-// testing server json yang dipakai
-"JSON_POPUP_WAIT" : "Siap bernyanyi . . . ",
-
-// Redirect ke apps lain 
-"REDIRECT_TRAFFIC" : false,
-"LINK_REDIRECT" : "https://play.google.com/store/apps/developer?id=devname",
-
-// main ads ke backup ads 
-"MODE_BACKUP_ADS" : true,
-"MODE_NO_ADS" : true,
-"MODE_TES_IKLAN_FAN_ADMOB_UNITY_STARTAPP_APPDODEAL" : false,
-
-//     mode pengaturan iklan
-//     Mode ADMOB       Admob backup Unity Backup Startapp
-//     Mode FAN         FAN backup Unity Backup Startapp
-//     Mode UNITY       Unity backup Startapp
-//     Mode APPLOVIN    Applovin backup Unity Backup Startapp
-
-"PENGATURAN_IKLAN_BANNER" : "ADMOB",
-"PENGATURAN_IKLAN_INTER" : "ADMOB",
-"PENGATURAN_IKLAN_NATIVE" : "ADMOB",
-
-"INTER_COUNT" : "3",
-
-"ENABLE_STRAP" : true,
-"ENABLE_STRAP_SPLAHSCREEN" : true,
-
-"ADS_ON_EXIT_DIALOG" : false, // WARNING - CTR MENINGKAT
-
-"MODE_OFFLINE_MP3" : true,
-"ENABLE_STICKY_NOTIFICATION" : true,
-
-"STARTAPPID" : "",
-
-"ADMOB_BANNER" : "x",
-"ADMOB_INTER" : "x",
-"ADMOB_NATIV" : "x",
-
-"HPK_ALIENDROID" : "",
-"HPK_ADMOB1" : "",
-"HPK_ADMOB2" : "",
-"HPK_ADMOB3" : "",
-"HPK_ADMOB4" : "",
-"HPK_ADMOB5" : "",
-
-"FAN_BANNER" : "YOUR_PLACEMENT_ID",
-"FAN_INTER" : "YOUR_PLACEMENT_ID",
-"FAN_NATIVE" : "YOUR_PLACEMENT_ID",
-
-"UNITY_BANNER" : "banner",
-"UNITY_INTERSTITIAL" : "inter",
-"UNITY_GAME_ID" : "mfxhgryufvs4t",
-
-"APPLOVIN_BANNER_MAX_ID" : "",
-"APPLOVIN_INTERSTITIAL_MAX_ID" : "",
-
-"BUTTON_START" : "PUTAR LAGU",
-"BUTTON_SHARE" : "BAGIKAN APLIKASI",
-"BUTTON_RATING" : "RATING SEKARANG",
-
-"EXIT_POPUP_DIALOG" : "
-Agar Kami lebih semangat mengembangkan dan memberikan update tamahan lagu terbaru
-
-Bantu kami dengan memberikan rating bingtang 5 ya 
-
-Klik tombol rating 
-",
-"RATE_BUTTON" : "Rate 5 Stars",
-"LATER_BUTTON" : "Nanti",
-"ENABLE_SHARE_BUTTON" : true,
-"SHARE_TXT" : "
-this app is awesome 
-
-you need try to donwload this app
-i.ve download and so much happy
-
-",
-
-"MORE_BUTTON" : "Share Via WhatsApp",
-// Jika share button TRUE maka tombol MORE berubah SHARE
-// isi url more apps jika ENABLE_SHARE_BUTTON  is false
-"URL_MORE_APPS" : "https://play.google.com/store/apps/developer?id="
-
- }
+  "Ads": [
+    {
+      "select_main_ads": "ADMOB",
+      "select_backup_ads":"",
+      "main_ads_banner": "X",
+      "main_ads_intertitial":"X",
+      "main_ads_natives":"",
+      "main_ads_rewards":"",
+      "backup_ads_natives":"",
+      "backup_ads_banner":"QWERT12345",
+      "backup_ads_intertitial":"QWERT12345",
+      "backup_ads_rewards":"",
+      "open_ads_admob":"",
+      "open_ads_alien":"",
+      "switch_open_ads":"1",
+      "switch_banner_natives_ads":"",
+      "interval_intertitial": 2,
+      "initialize_sdk":"null",
+      "initialize_sdk_backup_ads":"null",
+      "high_paying_keyword_1": "",
+      "high_paying_keyword_2": "",
+      "high_paying_keyword_3": "",
+      "high_paying_keyword_4": "",
+      "high_paying_keyword_5": "",
+      "status_app": "0",
+      "link_redirect": "https://"
+    }
+  ],
+  "Categories": [
+    {
+      "id": 1,
+      "name_category": "SIDE A",
+      "image": "file:///android_asset/image/SA.jpg"
+    },
+    {
+      "id": 2,
+      "name_category": "SIDE B",
+      "image": "file:///android_asset/image/SB.jpg"
+    }
+  ],
+  "Data": [
+    {
+      "id": 1,
+      "name_category": "SIDE A",
+      "title": "HARI BERSAMANYA",
+      "image": "file:///android_asset/image/SA.jpg",
+      "link_mp3": "mp3/LAJUON1.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 2,
+      "name_category": "SIDE A",
+      "title": "SAHABAT SEJATIKU",
+      "image": "file:///android_asset/image/SA.jpg",
+      "link_mp3": "mp3/LAJUON2.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 3,
+      "name_category": "SIDE A",
+      "title": "TUNJUK SATU BINTANG",
+      "image": "file:///android_asset/image/SA.jpg",
+      "link_mp3": "mp3/LAJUON3.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 4,
+      "name_category": "SIDE A",
+      "title": "UNTUK PEREMPUAN",
+      "image": "file:///android_asset/image/SA.jpg",
+      "link_mp3": "mp3/LAJUON4.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 5,
+      "name_category": "SIDE A",
+      "title": "MEPOPAT LEBIH TINGGI",
+      "image": "file:///android_asset/image/SA.jpg",
+      "link_mp3": "mp3/LAJUON5.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 6,
+      "name_category": "SIDE A",
+      "title": "LAPANG DADA",
+      "image": "file:///android_asset/image/SA.jpg",
+      "link_mp3": "mp3/LAJUON6.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 7,
+      "name_category": "SIDE A",
+      "title": "KETIDAK WRASANNKU",
+      "image": "file:///android_asset/image/SA.jpg",
+      "link_mp3": "mp3/LAJUON7.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 8,
+      "name_category": "SIDE A",
+      "title": "KITA",
+      "image": "file:///android_asset/image/SA.jpg",
+      "link_mp3": "mp3/LAJUON8.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 9,
+      "name_category": "SIDE A",
+      "title": "PEJANTAN TANGGUH",
+      "image": "file:///android_asset/image/SA.jpg",
+      "link_mp3": "mp3/LAJUON9.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 10,
+      "name_category": "SIDE A",
+      "title": "DAN",
+      "image": "file:///android_asset/image/SA.jpg",
+      "link_mp3": "mp3/LAJUON10.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 11,
+      "name_category": "SIDE A",
+      "title": "PEMUJA RAHASIA",
+      "image": "file:///android_asset/image/SA.jpg",
+      "link_mp3": "mp3/LAJUON11.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 12,
+      "name_category": "SIDE A",
+      "title": "PRIA KESEPIAN",
+      "image": "file:///android_asset/image/SA.jpg",
+      "link_mp3": "mp3/LAJUON12.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 13,
+      "name_category": "SIDE A",
+      "title": "SEBUAH KISAH KLASIK",
+      "image": "file:///android_asset/image/SA.jpg",
+      "link_mp3": "mp3/LAJUON13.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 14,
+      "name_category": "SIDE A",
+      "title": "ANUGRAH TERINDAH",
+      "image": "file:///android_asset/image/SA.jpg",
+      "link_mp3": "mp3/LAJUON14.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 15,
+      "name_category": "SIDE B",
+      "title": "BERHENTI BERHARAP",
+      "image": "file:///android_asset/image/SB.jpg",
+      "link_mp3": "mp3/LAJUON15.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 16,
+      "name_category": "SIDE B",
+      "title": "BERTAHAN DISANA",
+      "image": "file:///android_asset/image/SB.jpg",
+      "link_mp3": "mp3/LAJUON16.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 17,
+      "name_category": "SIDE B",
+      "title": "BILA KAU TAK DISAMPINGKU",
+      "image": "file:///android_asset/image/SB.jpg",
+      "link_mp3": "mp3/LAJUON17.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 18,
+      "name_category": "SIDE B",
+      "title": "HINGGA UJUNG WAKTU",
+      "image": "file:///android_asset/image/SB.jpg",
+      "link_mp3": "mp3/LAJUON18.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 19,
+      "name_category": "SIDE B",
+      "title": "ITU AKU",
+      "image": "file:///android_asset/image/SB.jpg",
+      "link_mp3": "mp3/LAJUON19.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 20,
+      "name_category": "SIDE B",
+      "title": "JAP",
+      "image": "file:///android_asset/image/SB.jpg",
+      "link_mp3": "mp3/LAJUON20.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 21,
+      "name_category": "SIDE B",
+      "title": "PERHATIKAN RANI",
+      "image": "file:///android_asset/image/SB.jpg",
+      "link_mp3": "mp3/LAJUON21.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 22,
+      "name_category": "SIDE B",
+      "title": "RADIO",
+      "image": "file:///android_asset/image/SB.jpg",
+      "link_mp3": "mp3/LAJUON22.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 23,
+      "name_category": "SIDE B",
+      "title": "SAAT LANJUT USIA",
+      "image": "file:///android_asset/image/SB.jpg",
+      "link_mp3": "mp3/LAJUON23.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 24,
+      "name_category": "SIDE B",
+      "title": "SEBERAPA PANTAS",
+      "image": "file:///android_asset/image/SB.jpg",
+      "link_mp3": "mp3/LAJUON24.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 25,
+      "name_category": "SIDE B",
+      "title": "SEPHIA",
+      "image": "file:///android_asset/image/SB.jpg",
+      "link_mp3": "mp3/LAJUON25.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 26,
+      "name_category": "SIDE B",
+      "title": "TUNGGU AKU DIJAKARTA",
+      "image": "file:///android_asset/image/SB.jpg",
+      "link_mp3": "mp3/LAJUON26.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 27,
+      "name_category": "SIDE B",
+      "title": "TUNJUKAN PADAKU",
+      "image": "file:///android_asset/image/SB.jpg",
+      "link_mp3": "mp3/LAJUON27.mp3",
+      "lyrics": ""
+	  }
+  ]
 }
