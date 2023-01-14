@@ -1,0 +1,167 @@
+{
+  "Ads": [
+    {
+      "select_main_ads": "ADMOB",
+      "select_backup_ads":"",
+      "main_ads_banner": "X",
+      "main_ads_intertitial":"X",
+      "main_ads_natives":"",
+      "main_ads_rewards":"",
+      "backup_ads_natives":"",
+      "backup_ads_banner":"QWERT12345",
+      "backup_ads_intertitial":"QWERT12345",
+      "backup_ads_rewards":"",
+      "open_ads_admob":"",
+      "open_ads_alien":"",
+      "switch_open_ads":"1",
+      "switch_banner_natives_ads":"",
+      "interval_intertitial": 2,
+      "initialize_sdk":"null",
+      "initialize_sdk_backup_ads":"null",
+      "high_paying_keyword_1": "",
+      "high_paying_keyword_2": "",
+      "high_paying_keyword_3": "",
+      "high_paying_keyword_4": "",
+      "high_paying_keyword_5": "",
+      "status_app": "0",
+      "link_redirect": "https://"
+    }
+  ],
+  "Categories": [
+    {
+      "id": 1,
+      "name_category": "REGGAE",
+      "image": "file:///android_asset/image/GA.png"
+    }
+  ],
+  "Data": [
+    {
+      "id": 1,
+      "name_category": "REGGAE",
+      "title": "SUCI DALAM DEBU",
+      "image": "file:///android_asset/image/GA.png",
+      "link_mp3": "mp3/REMAL1.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 2,
+      "name_category": "REGGAE",
+      "title": "CINTA DIUSTA",
+      "image": "file:///android_asset/image/GA.png",
+      "link_mp3": "mp3/REMAL2.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 3,
+      "name_category": "REGGAE",
+      "title": "MEMORY BERKASIH",
+      "image": "file:///android_asset/image/GA.png",
+      "link_mp3": "mp3/REMAL3.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 4,
+      "name_category": "REGGAE",
+      "title": "BUIH JADI PERMADANI",
+      "image": "file:///android_asset/image/GA.png",
+      "link_mp3": "mp3/REMAL4.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 5,
+      "name_category": "REGGAE",
+      "title": "BUKAN AKU TAK CINTA",
+      "image": "file:///android_asset/image/GA.png",
+      "link_mp3": "mp3/REMAL5.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 6,
+      "name_category": "REGGAE",
+      "title": "CINTA KITA",
+      "image": "file:///android_asset/image/GA.png",
+      "link_mp3": "mp3/REMAL6.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 7,
+      "name_category": "REGGAE",
+      "title": "RINDU SERINDU RINDUNYA",
+      "image": "file:///android_asset/image/GA.png",
+      "link_mp3": "mp3/REMAL7.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 8,
+      "name_category": "REGGAE",
+      "title": "DIRANTAI GELANG RINDU",
+      "image": "file:///android_asset/image/GA.png",
+      "link_mp3": "mp3/REMAL8.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 9,
+      "name_category": "REGGAE",
+      "title": "DISANA MENANTI DISINI MENUNGGU",
+      "image": "file:///android_asset/image/GA.png",
+      "link_mp3": "mp3/REMAL9.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 10,
+      "name_category": "REGGAE",
+      "title": "GURAUAN BERKASIH",
+      "image": "file:///android_asset/image/GA.png",
+      "link_mp3": "mp3/REMAL10.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 11,
+      "name_category": "REGGAE",
+      "title": "HAKIKAT SEBUAH CINTA",
+      "image": "file:///android_asset/image/GA.png",
+      "link_mp3": "mp3/REMAL11.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 12,
+      "name_category": "REGGAE",
+      "title": "ISABELA",
+      "image": "file:///android_asset/image/GA.png",
+      "link_mp3": "mp3/REMAL12.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 13,
+      "name_category": "REGGAE",
+      "title": "KU TAK AKAN BERSUARA",
+      "image": "file:///android_asset/image/GA.png",
+      "link_mp3": "mp3/REMAL13.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 14,
+      "name_category": "REGGAE",
+      "title": "MENCARI ALASAN",
+      "image": "file:///android_asset/image/GA.png",
+      "link_mp3": "mp3/REMAL14.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 15,
+      "name_category": "REGGAE",
+      "title": "SATU NAMA TETAP DIHATI",
+      "image": "file:///android_asset/image/GA.png",
+      "link_mp3": "mp3/REMAL15.mp3",
+      "lyrics": ""
+	  },
+	  {
+      "id": 16,
+      "name_category": "REGGAE",
+      "title": "SERIBU KALI SAYANG",
+      "image": "file:///android_asset/image/GA.png",
+      "link_mp3": "mp3/REMAL16.mp3",
+      "lyrics": ""
+	  }
+  ]
+}
