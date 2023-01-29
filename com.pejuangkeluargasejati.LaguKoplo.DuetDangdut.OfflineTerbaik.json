@@ -8,7 +8,7 @@
 "HOMEURL" : "file:///android_asset/music/playlist.html",
 
 // testing server json yang dipakai
-"JSON_POPUP_WAIT" : "Tarlingan yuk . . . ",
+"JSON_POPUP_WAIT" : "duet yuk . . . ",
 
 // Redirect ke apps lain 
 "REDIRECT_TRAFFIC" : false,
@@ -16,7 +16,7 @@
 
 // main ads ke backup ads 
 "MODE_BACKUP_ADS" : true,
-"MODE_NO_ADS" : true,
+"MODE_NO_ADS" : false,
 "MODE_TES_IKLAN_FAN_ADMOB_UNITY_STARTAPP_APPDODEAL" : false,
 
 //     mode pengaturan iklan
@@ -29,7 +29,7 @@
 "PENGATURAN_IKLAN_INTER" : "ADMOB",
 "PENGATURAN_IKLAN_NATIVE" : "ADMOB",
 
-"INTER_COUNT" : "3",
+"INTER_COUNT" : "2",
 
 "ENABLE_STRAP" : false,
 "ENABLE_STRAP_SPLAHSCREEN" : false,
@@ -39,10 +39,10 @@
 "MODE_OFFLINE_MP3" : true,
 "ENABLE_STICKY_NOTIFICATION" : true,
 
-"STARTAPPID" : "",
+"STARTAPPID" : "208166994",
 
-"ADMOB_BANNER" : "x",
-"ADMOB_INTER" : "x",
+"ADMOB_BANNER" : "ca-app-pub-8309523599849499/8715153330",
+"ADMOB_INTER" : "ca-app-pub-8309523599849499/4775908323",
 "ADMOB_NATIV" : "x",
 
 "HPK_ALIENDROID" : "",
